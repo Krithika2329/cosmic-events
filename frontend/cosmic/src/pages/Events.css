@@ -1,0 +1,61 @@
+.events-container {
+    padding: 20px;
+    background-color: #0d1b2a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #ffd700;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 2px solid #ffd700;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #1b263b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-event-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-event-form input {
+    padding: 10px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    background-color: #1b263b;
+    color: #fff;
+}
+
+.add-event-form button {
+    padding: 10px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #0d1b2a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-event-form button:hover {
+    background-color: #e0ac00;
+}
